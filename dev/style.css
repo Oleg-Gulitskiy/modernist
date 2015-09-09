@@ -155,3 +155,8 @@ a {
     box-sizing: border-box;
     float: right;
 }
+
+.slider__image:after {
+  content: ' ';
+  clear: both;
+}
