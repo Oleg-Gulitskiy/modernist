@@ -95,7 +95,7 @@ a {
 .slider__leftButton {
     position: absolute;
     display: inline-block;
-    background: url("../../../img/arrow.png");
+    background: url("img/arrow.png");
     height: 28px;
     width: 15px;
     left: 0;
@@ -107,7 +107,7 @@ a {
 .slider__rightButton {
     position: absolute;
     display: inline-block;
-    background: url("../../../img/arrow2.png");
+    background: url("img/arrow2.png");
     height: 28px;
     width: 15px;
     right: 0;
