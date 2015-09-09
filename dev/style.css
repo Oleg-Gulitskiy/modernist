@@ -89,7 +89,6 @@ a {
 
 .slider {
     padding: 42px 0;
-    overflow: auto;
 }
 
 .slider__leftButton {
@@ -154,4 +153,8 @@ a {
     border: #6b6b6b solid 20px;
     box-sizing: border-box;
     float: right;
+}
+
+.slider__image:after {
+    clear: both;
 }
