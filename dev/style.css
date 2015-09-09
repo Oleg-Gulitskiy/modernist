@@ -1,0 +1,157 @@
+/******color*******/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Bookman", Georgia regular, "Times New Roman", serif;
+    color: white;
+}
+
+header {
+    background-color: #290000;
+    border-top: #76c38f solid 5px;
+    padding: 42px 0 0 0;
+}
+
+main {
+    background-color: #660000;
+}
+
+footer {
+    background-color: #303030;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.logo__name {
+    display: block;
+    font-size: 1.750em;
+}
+
+.logo__tagLine {
+    display: block;
+    font-size: 0.688em;
+}
+
+.headerNav {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+}
+
+.headerNav__list {
+    list-style: none;
+    display: block;
+}
+
+.headerNav__item {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.headerNav__link {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.813em;
+    font-weight: 300;
+}
+
+.headerNav__link:hover {
+    background: #76c38f;
+}
+
+.slider {
+    padding: 42px 0;
+    overflow: auto;
+}
+
+.slider__leftButton {
+    position: absolute;
+    display: inline-block;
+    background: url("../../../img/arrow.png");
+    height: 28px;
+    width: 15px;
+    left: 0;
+    top: 50%;
+    margin-top: -14px;
+    cursor: pointer;
+}
+
+.slider__rightButton {
+    position: absolute;
+    display: inline-block;
+    background: url("../../../img/arrow2.png");
+    height: 28px;
+    width: 15px;
+    right: 0;
+    top: 50%;
+    margin-top: -14px;
+    cursor: pointer;
+}
+
+.slider__content {
+    padding: 0 60px;
+    overflow: auto;
+}
+
+.slider__textBox {
+    display: inline-block;
+    width: 330px;
+    margin-top: 75px;
+}
+
+.slider__mainText {
+    font-size: 2.875em;
+}
+
+.slider__addText {
+    font-size: 0.875em;
+    line-height: 21px;
+}
+
+.slider__readMoreButton {
+    font-size: 13px;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #76c38f;
+    border-radius: 5px;
+}
+
+.slider__image {
+    display: inline-block;
+    width: 380px;
+    height: 380px;
+    background: #303030;
+    border-radius: 50%;
+    border: #6b6b6b solid 20px;
+    box-sizing: border-box;
+    float: right;
+}
